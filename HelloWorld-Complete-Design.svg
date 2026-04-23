@@ -1,0 +1,587 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="1200" fill="#f8fafc" />
+  
+  <!-- Title -->
+  <text x="800" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#334155">
+    HelloWorld 儿童智能手表英语学习应用 - 完整设计
+  </text>
+  
+  <!-- Watch Home Screen -->
+  <g transform="translate(100, 100)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      手表主屏幕
+    </text>
+    <!-- Status Bar -->
+    <rect x="20" y="40" width="280" height="20" fill="white" />
+    <text x="30" y="54" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+      📶
+    </text>
+    <text x="270" y="54" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">
+      🔋 85%
+    </text>
+    <!-- Clock -->
+    <text x="160" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      14:30
+    </text>
+    <text x="160" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      2026年4月22日 星期二
+    </text>
+    <!-- App Grid -->
+    <g transform="translate(40, 180)">
+      <!-- HelloWorld App -->
+      <circle cx="40" cy="40" r="32" fill="url(#blueGradient)" />
+      <text x="40" y="44" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">
+        HelloWorld
+      </text>
+      <text x="40" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        英语
+      </text>
+      <!-- Other Apps -->
+      <circle cx="120" cy="40" r="32" fill="#e2e8f0" />
+      <text x="120" y="44" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        💬
+      </text>
+      <text x="120" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        消息
+      </text>
+      <circle cx="200" cy="40" r="32" fill="#e2e8f0" />
+      <text x="200" y="44" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        📞
+      </text>
+      <text x="200" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        电话
+      </text>
+      <circle cx="40" cy="120" r="32" fill="#e2e8f0" />
+      <text x="40" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        📷
+      </text>
+      <text x="40" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        相机
+      </text>
+      <circle cx="120" cy="120" r="32" fill="#e2e8f0" />
+      <text x="120" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        🎵
+      </text>
+      <text x="120" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        音乐
+      </text>
+      <circle cx="200" cy="120" r="32" fill="#e2e8f0" />
+      <text x="200" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        🏃
+      </text>
+      <text x="200" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        运动
+      </text>
+    </g>
+    <!-- Hint -->
+    <text x="160" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3b82f6">
+      👆 点击 HelloWorld 开始学习
+    </text>
+    <!-- Interaction Arrow -->
+    <path d="M320 160 L420 160 L410 150 M420 160 L410 170" stroke="#3b82f6" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Home Screen -->
+  <g transform="translate(540, 100)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      应用主界面
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#greenGradient)" />
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      HelloWorld
+    </text>
+    <!-- Content -->
+    <text x="160" y="100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      开始学习
+    </text>
+    <text x="160" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      选择一个模块开始
+    </text>
+    <!-- Modules -->
+    <g transform="translate(40, 140)">
+      <rect x="0" y="0" width="110" height="80" rx="16" fill="url(#blueGradient)" />
+      <text x="55" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        学习助手
+      </text>
+      <text x="55" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+        Learning
+      </text>
+      <text x="55" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">
+        📚
+      </text>
+      
+      <rect x="130" y="0" width="110" height="80" rx="16" fill="url(#purpleGradient)" />
+      <text x="185" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        练习闯关
+      </text>
+      <text x="185" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+        Practice
+      </text>
+      <text x="185" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">
+        🎮
+      </text>
+      
+      <rect x="0" y="100" width="110" height="80" rx="16" fill="url(#orangeGradient)" />
+      <text x="55" y="135" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        故事解谜
+      </text>
+      <text x="55" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+        Story
+      </text>
+      <text x="55" y="165" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">
+        📖
+      </text>
+      
+      <rect x="130" y="100" width="110" height="80" rx="16" fill="url(#greenGradient)" />
+      <text x="185" y="135" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        个人中心
+      </text>
+      <text x="185" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+        Profile
+      </text>
+      <text x="185" y="165" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">
+        👤
+      </text>
+    </g>
+    <!-- Interaction Arrows -->
+    <path d="M110 180 L110 50 L160 50 L160 0 L240 0 L240 50 L290 50 L290 180" stroke="#3b82f6" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+    <path d="M110 280 L110 360 L160 360" stroke="#3b82f6" stroke-width="2" fill="none" />
+    <path d="M290 280 L290 360 L240 360" stroke="#3b82f6" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Learning Screen -->
+  <g transform="translate(980, 100)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      学习助手
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#greenGradient)" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="white">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      学习助手
+    </text>
+    <text x="300" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="end" fill="white">
+      🔍
+    </text>
+    <!-- Content -->
+    <text x="40" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">
+      最近学习
+    </text>
+    <!-- Word Items -->
+    <g transform="translate(40, 110)">
+      <rect x="0" y="0" width="240" height="40" rx="8" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="120" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        cat
+      </text>
+      <text x="120" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        猫
+      </text>
+      <text x="220" y="25" font-family="Arial, sans-serif" font-size="16" text-anchor="end" fill="#22c55e">
+        🔊
+      </text>
+      
+      <rect x="0" y="50" width="240" height="40" rx="8" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="120" y="70" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        dog
+      </text>
+      <text x="120" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        狗
+      </text>
+      <text x="220" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="end" fill="#22c55e">
+        🔊
+      </text>
+      
+      <rect x="0" y="100" width="240" height="40" rx="8" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="120" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        apple
+      </text>
+      <text x="120" y="135" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        苹果
+      </text>
+      <text x="220" y="125" font-family="Arial, sans-serif" font-size="16" text-anchor="end" fill="#22c55e">
+        🔊
+      </text>
+    </g>
+    <!-- Interaction Arrow -->
+    <path d="M160 320 L160 400 L240 400" stroke="#3b82f6" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Word Detail Screen -->
+  <g transform="translate(980, 440)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      词条详情
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#greenGradient)" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="white">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      词条详情
+    </text>
+    <!-- Content -->
+    <rect x="0" y="80" width="320" height="80" fill="#f0fdf4" />
+    <rect x="120" y="90" width="80" height="60" rx="8" fill="#f0fdf4" stroke="#dcfce7" />
+    <text x="160" y="120" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      cat
+    </text>
+    <!-- Pronunciation Area -->
+    <rect x="20" y="170" width="280" height="60" rx="8" fill="white" stroke="#e2e8f0" />
+    <circle cx="50" cy="200" r="20" fill="#22c55e" />
+    <text x="50" y="204" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">
+      🔊
+    </text>
+    <text x="100" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1e293b">
+      /kæt/
+    </text>
+    <rect x="200" y="180" width="35" height="20" rx="4" fill="#22c55e" />
+    <text x="217" y="194" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">
+      美音
+    </text>
+    <rect x="245" y="180" width="35" height="20" rx="4" fill="#e2e8f0" />
+    <text x="262" y="194" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+      英音
+    </text>
+    <rect x="245" y="205" width="35" height="20" rx="4" fill="#3b82f6" />
+    <text x="262" y="219" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">
+      慢读
+    </text>
+    <!-- Meaning Area -->
+    <rect x="20" y="240" width="280" height="40" rx="8" fill="#f0fdf4" />
+    <text x="30" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1e293b">
+      释义
+    </text>
+    <text x="30" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="start" fill="#1e293b">
+      猫
+    </text>
+    <!-- Examples Area -->
+    <rect x="20" y="290" width="280" height="60" rx="8" fill="white" stroke="#e2e8f0" />
+    <text x="30" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1e293b">
+      例句
+    </text>
+    <text x="30" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1e293b">
+      I have a cat.
+    </text>
+    <text x="30" y="335" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#64748b">
+      我有一只猫。
+    </text>
+  </g>
+  
+  <!-- Practice Path -->
+  <g transform="translate(100, 440)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      闯关路线
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#greenGradient)" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="white">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      闯关路线
+    </text>
+    <!-- Content -->
+    <g transform="translate(40, 80)">
+      <!-- Stage 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#d1d5db" stroke-width="8" />
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#34d399" stroke-width="8" stroke-linecap="round" stroke-dasharray="251.33 251.33" transform="rotate(-90 40 40)" />
+        <circle cx="40" cy="40" r="30" fill="url(#greenGradient)" />
+        <path d="M40 22 L44 32 L55 32 L46 39 L50 50 L40 43 L30 50 L34 39 L25 32 L36 32 Z" fill="#fbbf24" />
+        <text x="100" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+          动物世界 I
+        </text>
+        <text x="100" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+          Animals I
+        </text>
+      </g>
+      <!-- Connector -->
+      <rect x="40" y="80" width="2" height="48" fill="#34d399" />
+      <!-- Stage 2 -->
+      <g transform="translate(0, 128)">
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#d1d5db" stroke-width="8" />
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#34d399" stroke-width="8" stroke-linecap="round" stroke-dasharray="62.83 251.33" transform="rotate(-90 40 40)" />
+        <circle cx="40" cy="40" r="30" fill="url(#greenGradient)" />
+        <path d="M40 22 L44 32 L55 32 L46 39 L50 50 L40 43 L30 50 L34 39 L25 32 L36 32 Z" fill="rgba(255,255,255,0.4)" />
+        <text x="100" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+          动物世界 II
+        </text>
+        <text x="100" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+          Animals II
+        </text>
+      </g>
+      <!-- Connector -->
+      <rect x="40" y="208" width="2" height="48" fill="#9ca3af" />
+      <!-- Stage 3 -->
+      <g transform="translate(0, 256)">
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#d1d5db" stroke-width="8" />
+        <circle cx="40" cy="40" r="40" fill="none" stroke="#9ca3af" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 251.33" transform="rotate(-90 40 40)" />
+        <circle cx="40" cy="40" r="30" fill="#f3f4f6" />
+        <path d="M40 22 L44 32 L55 32 L46 39 L50 50 L40 43 L30 50 L34 39 L25 32 L36 32 Z" fill="#d1d5db" />
+        <path d="M40 15 L40 25 M30 35 L50 35 L50 45 C50 48.31 47.31 51 44 51 L36 51 C32.69 51 30 48.31 30 45 L30 35 Z" fill="#9ca3af" stroke="#9ca3af" stroke-width="2" />
+        <text x="100" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+          动物世界 III
+        </text>
+        <text x="100" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+          Animals III
+        </text>
+      </g>
+    </g>
+    <!-- Interaction Arrow -->
+    <path d="M320 160 L420 160 L420 240" stroke="#3b82f6" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Practice Stage -->
+  <g transform="translate(540, 440)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      单元选择
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#greenGradient)" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="white">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      动物世界 I
+    </text>
+    <!-- Content -->
+    <text x="160" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      选择单元
+    </text>
+    <text x="160" y="115" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      完成所有单元后挑战守关大将
+    </text>
+    <!-- Units -->
+    <g transform="translate(40, 130)">
+      <rect x="0" y="0" width="240" height="60" rx="12" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="40" y="35" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#22c55e">
+        📚
+      </text>
+      <text x="120" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        单元一
+      </text>
+      <text x="120" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+        Unit 1
+      </text>
+      <text x="210" y="35" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#22c55e">
+        ✅
+      </text>
+      
+      <rect x="0" y="70" width="240" height="60" rx="12" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="40" y="105" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#22c55e">
+        ✏️
+      </text>
+      <text x="120" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        单元二
+      </text>
+      <text x="120" y="110" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+        Unit 2
+      </text>
+      <text x="210" y="105" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#22c55e">
+        ✅
+      </text>
+      
+      <rect x="0" y="140" width="240" height="60" rx="12" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="40" y="175" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#22c55e">
+        🎯
+      </text>
+      <text x="120" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        单元三
+      </text>
+      <text x="120" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+        Unit 3
+      </text>
+      <text x="210" y="175" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#22c55e">
+        ✅
+      </text>
+      
+      <rect x="0" y="210" width="240" height="60" rx="12" fill="#f0fdf4" stroke="#dcfce7" />
+      <text x="40" y="245" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#22c55e">
+        📻
+      </text>
+      <text x="120" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+        单元四
+      </text>
+      <text x="120" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+        Unit 4
+      </text>
+      <text x="210" y="245" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#22c55e">
+        ✅
+      </text>
+    </g>
+  </g>
+  
+  <!-- Profile -->
+  <g transform="translate(100, 780)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      个人中心
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="white" stroke="#e2e8f0" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="#334155">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#334155">
+      个人中心
+    </text>
+    <text x="300" y="65" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#ef4444">
+      退出登录
+    </text>
+    <!-- User Info -->
+    <g transform="translate(40, 90)">
+      <circle cx="40" cy="40" r="32" fill="url(#orangeGradient)" />
+      <text x="40" y="44" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="white">
+        🐼
+      </text>
+      <text x="120" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+        小学习者
+      </text>
+      <text x="220" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#3b82f6">
+        修改
+      </text>
+      <text x="120" y="50" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+        ID: 123456789
+      </text>
+      <text x="120" y="65" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+        A1
+      </text>
+    </g>
+    <!-- Menu Items -->
+    <g transform="translate(40, 170)">
+      <!-- 错题本 -->
+      <rect x="0" y="0" width="240" height="80" rx="12" fill="white" stroke="#e2e8f0" />
+      <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+        📚 错题本
+      </text>
+      <text x="20" y="45" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+        动物世界 - 单元1
+      </text>
+      <text x="220" y="45" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="end">
+        3 题
+      </text>
+      <text x="20" y="65" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+        动物世界 - 单元2
+      </text>
+      <text x="220" y="65" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="end">
+        2 题
+      </text>
+      
+      <!-- 我的奖励 -->
+      <rect x="0" y="90" width="240" height="80" rx="12" fill="white" stroke="#e2e8f0" />
+      <text x="20" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">
+        🏆 我的奖励
+      </text>
+      <text x="220" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f59e0b" text-anchor="end">
+        100 积分
+      </text>
+      <text x="20" y="135" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+        积分长期有效
+      </text>
+      <text x="20" y="155" font-family="Arial, sans-serif" font-size="12" fill="#64748b">
+        兑换记录
+      </text>
+      <text x="220" y="155" font-family="Arial, sans-serif" font-size="12" fill="#3b82f6" text-anchor="end">
+        查看
+      </text>
+    </g>
+  </g>
+  
+  <!-- Story Scene -->
+  <g transform="translate(540, 780)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#334155">
+      故事解谜
+    </text>
+    <!-- Top Bar -->
+    <rect x="0" y="40" width="320" height="40" fill="url(#purpleGradient)" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="start" fill="white">
+      ←
+    </text>
+    <text x="160" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      奶奶的猫
+    </text>
+    <text x="300" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="end" fill="white">
+      🔊
+    </text>
+    <!-- Content -->
+    <rect x="20" y="90" width="280" height="120" rx="12" fill="#f3e8ff" />
+    <text x="150" y="150" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1e293b">
+      奶奶的猫不见了，她很着急。
+    </text>
+    <text x="150" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      Grandma's cat is missing, she is very worried.
+    </text>
+    <!-- Question Area -->
+    <rect x="20" y="220" width="280" height="80" rx="12" fill="#f3e8ff" />
+    <text x="40" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7e22ce" text-anchor="start">
+      问题
+    </text>
+    <text x="160" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      奶奶丢了什么？
+    </text>
+    <text x="160" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      What did Grandma lose?
+    </text>
+    <!-- Options -->
+    <rect x="40" y="260" width="240" height="30" rx="8" fill="#ede9fe" stroke="#ddd6fe" />
+    <text x="160" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">
+      her cat
+    </text>
+    <text x="160" y="292" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+      她的猫
+    </text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Navigation Flow -->
+  <g fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5">
+    <path d="M320 160 L420 160 L420 100" />
+    <path d="M860 160 L980 160" />
+    <path d="M860 280 L980 280" />
+    <path d="M860 320 L980 320" />
+    <path d="M420 440 L540 440" />
+    <path d="M860 440 L980 440" />
+    <path d="M420 780 L540 780" />
+  </g>
+  
+  <!-- Interaction Labels -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#3b82f6">
+    <text x="370" y="150" text-anchor="middle">点击进入</text>
+    <text x="920" y="150" text-anchor="middle">选择模块</text>
+    <text x="920" y="270" text-anchor="middle">点击单词</text>
+    <text x="920" y="310" text-anchor="middle">查看详情</text>
+    <text x="480" y="430" text-anchor="middle">选择关卡</text>
+    <text x="920" y="430" text-anchor="middle">选择单元</text>
+    <text x="480" y="770" text-anchor="middle">进入故事</text>
+  </g>
+</svg>

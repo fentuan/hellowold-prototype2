@@ -1,0 +1,103 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8fafc" />
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">
+    手表主屏幕设计
+  </text>
+  
+  <!-- Watch Home Screen -->
+  <g transform="translate(40, 60)">
+    <rect width="320" height="320" rx="40" fill="white" stroke="#e2e8f0" stroke-width="2" />
+    
+    <!-- Status Bar -->
+    <rect x="20" y="40" width="280" height="20" fill="white" />
+    <text x="30" y="54" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+      📶
+    </text>
+    <text x="270" y="54" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="end">
+      🔋 85%
+    </text>
+    
+    <!-- Clock -->
+    <text x="160" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      14:30
+    </text>
+    <text x="160" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">
+      2026年4月23日 星期三
+    </text>
+    
+    <!-- App Grid -->
+    <g transform="translate(40, 180)">
+      <!-- HelloWorld App -->
+      <circle cx="40" cy="40" r="32" fill="url(#blueGradient)" />
+      <text x="40" y="44" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">
+        HelloWorld
+      </text>
+      <text x="40" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        英语
+      </text>
+      
+      <!-- Other Apps -->
+      <circle cx="120" cy="40" r="32" fill="#e2e8f0" />
+      <text x="120" y="44" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        💬
+      </text>
+      <text x="120" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        消息
+      </text>
+      
+      <circle cx="200" cy="40" r="32" fill="#e2e8f0" />
+      <text x="200" y="44" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        📞
+      </text>
+      <text x="200" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        电话
+      </text>
+      
+      <circle cx="40" cy="120" r="32" fill="#e2e8f0" />
+      <text x="40" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        📷
+      </text>
+      <text x="40" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        相机
+      </text>
+      
+      <circle cx="120" cy="120" r="32" fill="#e2e8f0" />
+      <text x="120" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        🎵
+      </text>
+      <text x="120" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        音乐
+      </text>
+      
+      <circle cx="200" cy="120" r="32" fill="#e2e8f0" />
+      <text x="200" y="124" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#94a3b8">
+        🏃
+      </text>
+      <text x="200" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+        运动
+      </text>
+    </g>
+    
+    <!-- Bottom Indicator -->
+    <g transform="translate(140, 300)">
+      <circle cx="10" cy="0" r="2" fill="white" />
+      <circle cx="20" cy="0" r="2" fill="rgba(255,255,255,0.5)" />
+    </g>
+    
+    <!-- Hint Text -->
+    <text x="160" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3b82f6">
+      👆 点击 HelloWorld 开始学习
+    </text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+</svg>
